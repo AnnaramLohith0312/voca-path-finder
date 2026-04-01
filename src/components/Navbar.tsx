@@ -23,7 +23,8 @@ const Navbar = () => {
           {isLanding && (
             <>
               <a href="#how-it-works" className="text-sm text-muted-foreground hover:text-foreground transition-colors">How it works</a>
-              <a href="#features" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Features</a>
+              <a href="#why-voca" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Why VOCA</a>
+              <a href="#sample-results" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Sample Results</a>
             </>
           )}
           <Link to="/auth">
@@ -46,7 +47,8 @@ const Navbar = () => {
           {isLanding && (
             <>
               <a href="#how-it-works" className="block text-sm text-muted-foreground" onClick={() => setMobileOpen(false)}>How it works</a>
-              <a href="#features" className="block text-sm text-muted-foreground" onClick={() => setMobileOpen(false)}>Features</a>
+              <a href="#why-voca" className="block text-sm text-muted-foreground" onClick={() => setMobileOpen(false)}>Why VOCA</a>
+              <a href="#sample-results" className="block text-sm text-muted-foreground" onClick={() => setMobileOpen(false)}>Sample Results</a>
             </>
           )}
           <Link to="/auth" className="block" onClick={() => setMobileOpen(false)}>
