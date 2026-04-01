@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import NetworkBackground from "@/components/NetworkBackground";
+import heroBg from "@/assets/hero-bg.jpg";
 import { ArrowRight, Brain, Compass, Eye, Lock, Sparkles, Target, TrendingUp, Users, Zap } from "lucide-react";
 
 const Landing = () => {
