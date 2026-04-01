@@ -13,6 +13,7 @@ const Landing = () => {
 
       {/* Hero */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+        <img src={heroBg} alt="" className="absolute inset-0 w-full h-full object-cover opacity-40" width={1920} height={1080} />
         <NetworkBackground />
         <div className="bg-mesh absolute inset-0" />
         <div className="relative z-10 max-w-4xl mx-auto text-center px-5 pt-20">
