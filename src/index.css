@@ -152,3 +152,14 @@
   0%, 100% { box-shadow: 0 0 20px hsl(174 62% 47% / 0.1); }
   50% { box-shadow: 0 0 40px hsl(174 62% 47% / 0.25); }
 }
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection styling */
+::selection {
+  background-color: hsl(174 62% 47% / 0.3);
+  color: hsl(210 20% 92%);
+}

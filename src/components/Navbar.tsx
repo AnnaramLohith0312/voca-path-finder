@@ -31,7 +31,7 @@ const Navbar = () => {
             <Button variant="ghost" size="sm">Sign in</Button>
           </Link>
           <Link to="/auth?signup=true">
-            <Button variant="hero" size="sm">Get Started</Button>
+            <Button variant="hero" size="sm">Start My Career Projection</Button>
           </Link>
         </div>
 
@@ -55,7 +55,7 @@ const Navbar = () => {
             <Button variant="ghost" size="sm" className="w-full">Sign in</Button>
           </Link>
           <Link to="/auth?signup=true" className="block" onClick={() => setMobileOpen(false)}>
-            <Button variant="hero" size="sm" className="w-full">Get Started</Button>
+            <Button variant="hero" size="sm" className="w-full">Start My Career Projection</Button>
           </Link>
         </div>
       )}
