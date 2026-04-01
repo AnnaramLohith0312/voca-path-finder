@@ -47,7 +47,8 @@ const Navbar = () => {
           {isLanding && (
             <>
               <a href="#how-it-works" className="block text-sm text-muted-foreground" onClick={() => setMobileOpen(false)}>How it works</a>
-              <a href="#features" className="block text-sm text-muted-foreground" onClick={() => setMobileOpen(false)}>Features</a>
+              <a href="#why-voca" className="block text-sm text-muted-foreground" onClick={() => setMobileOpen(false)}>Why VOCA</a>
+              <a href="#sample-results" className="block text-sm text-muted-foreground" onClick={() => setMobileOpen(false)}>Sample Results</a>
             </>
           )}
           <Link to="/auth" className="block" onClick={() => setMobileOpen(false)}>
